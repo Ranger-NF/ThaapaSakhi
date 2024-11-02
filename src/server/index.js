@@ -17,7 +17,6 @@ const ws = new WebSocket("wss://ntfy.sh/thaapasakhi-server/ws");
 
 ws.addEventListener("message", function (event) {
   const data = JSON.parse(event.data);
-  console.log(data);
 
   if (data.event == "open") {
     console.log("Established websocket connection with ntfy!");
@@ -32,7 +31,6 @@ function analyzeTemperature(tempInCelcius) {
   if (!musicName) {
     console.log("No music has been set for this temperature");
   } else {
-    console.log(musicName);
     playMusic(musicName);
   }
 }
@@ -45,5 +43,5 @@ function playMusic(musicName) {
   audioPlayer = new Audic(musicFolderPath + musicName + ".mp3");
   audioPlayer.play();
 
-  console.log("Started playing " + musicName);
+  console.log("Started playing: " + musicName);
 }
