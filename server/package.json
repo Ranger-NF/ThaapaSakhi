@@ -1,0 +1,23 @@
+{
+  "name": "thaapasakhi-server",
+  "version": "1.0.0",
+  "description": "Backend to control logic for music player based on temperature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranger-NF/Thaapasakhi.git"
+  },
+  "keywords": [
+    "NodeMCU",
+    "WebSocket"
+  ],
+  "author": "Fahad, Muflih & Fadeela",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Ranger-NF/Thaapasakhi/issues"
+  },
+  "homepage": "https://github.com/Ranger-NF/Thaapasakhi#readme"
+}
