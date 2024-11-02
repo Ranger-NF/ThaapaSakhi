@@ -4,7 +4,7 @@ import Audic from "audic";
 const musicFolderPath = "../../music/";
 
 const musicList = {
-  26: "snowman",
+  26: "snowMan",
   27: "imCold",
   29: "himamazha",
   30: "kadha",
