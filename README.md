@@ -50,12 +50,13 @@ For Hardware:
 4. Checking the temperatures, and playing specified audio files
 
 # Installation
-
+Firstly, copy the repo to your local machine:
 ```
 git clone https://github.com/Ranger-NF/Thaapasakhi/
 cd Thaapasakhi
 ```
 
+Now, there are 2 parts to this repo/project: Server (`src/server`) and NodeMCU (`src/microcontroller`). Follow the following steps for each component:
 - Server:
 ```
 cd src/server
