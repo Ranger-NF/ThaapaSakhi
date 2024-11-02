@@ -6,10 +6,12 @@ const musicFolderPath = "../../music/";
 const musicList = {
   26: "snowMan",
   27: "imCold",
-  29: "himamazha",
-  30: "kadha",
-  31: "btsFire",
-  32: "playWithFire",
+  28: "himamazha",
+  29: "ilavakaPoove",
+  30: "goldenHour",
+  31: "kadha",
+  32: "btsFire",
+  33: "playWithFire",
 };
 
 let audioPlayer;
