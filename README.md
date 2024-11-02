@@ -6,22 +6,22 @@
 
 ## Basic Details
 
-### Team Name: MegaMinds
+### Team Name: 🧠 MegaMinds
 
 ### Team Members
-- Team Lead: Mohammed Fahad - Government Engineering College Palakkad
-- Member 2: N Fadeela - Government Engineering College Palakkad
-- Member 3: Mohammed Muflih - Government Engineering College Palakkad
+- Team Lead: **Mohammed Fahad** - Government Engineering College Palakkad
+- Member 2: **N Fadeela** - Government Engineering College Palakkad
+- Member 3: **Mohammed Muflih** - Government Engineering College Palakkad
 
 ### Project Description
-A beautiful flawless project which plays songs according to the subjected temperature 😉
+A beautiful flawless project that plays melodies according to the subjected temperature 😉
 
 ### The Problem (that doesn't exist)
-Nobody loves to sense the surrounding temperature by themselves. Do they?
+Nobody likes to sense the surrounding temperature by themselves, do they?
 So, we made this complicated facade to help you with that 😌
 
 ### The Solution (that nobody asked for)
-We collect data from a temperature sensor and plays accurate melodies for you 🎶
+We collect data from a temperature sensor and play accurate melodies for you 🎶
 
 ## Technical Details
 ### Technologies/Components Used
@@ -69,33 +69,21 @@ npm install
 
 - NodeMCU: Just connect it to power
 
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
 # Diagrams
 ![Workflow](docs/thaapasakhi-workflow.png)
-There are 3 parts: Microcontroller, Server(ntfy) and your PC(Node.js web server)
+*There are 3 parts: Microcontroller, Server(ntfy) and your PC(Node.js web server)*
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![Circuit](docs/thaapasakhi-circuit-diagram.png)
+*GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+![Schematic](docs/thaapasakhi-schematics.jpg)
 
 # Build Photos
 ![Components](docs/thaapasakhi-components.png)
 
 ![Final](docs/thaapasakhi-final-build.jpg)
-
-GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU
+*GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU*
 
 
 ### Project Demo
@@ -105,8 +93,8 @@ GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin
 
 ## Team Contributions
 - Mohammed Fahad: Server side logic, NodeMCU logic
-- N Fadeela: Proposed the idea, collected the music and documented project
-- Mohammed Muflih: Circuit assembly, edited audio files and NodeMCU logic
+- N Fadeela: Proposed the idea, collected the melodies and documented the project
+- Mohammed Muflih: Assembled the circuit, edited audio files and NodeMCU logic
 
 ---
 Made with ❤️ at TinkerHub Useless Projects
