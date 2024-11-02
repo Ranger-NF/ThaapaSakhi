@@ -4,10 +4,12 @@ import Audic from "audic";
 const musicFolderPath = "../../music/";
 
 const musicList = {
-  24: "himamazha",
-  26: "imCold",
-  27: "btsFire",
-  28: "playWithFire",
+  26: "snowman",
+  27: "imCold",
+  29: "himamazha",
+  30: "kadha",
+  31: "btsFire",
+  32: "playWithFire",
 };
 
 let audioPlayer;
