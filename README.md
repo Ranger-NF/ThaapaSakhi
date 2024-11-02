@@ -88,8 +88,8 @@ npm install
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+
+https://github.com/user-attachments/assets/027e1072-a8ac-415e-a078-05ecac469b10
 
 ## Team Contributions
 - Mohammed Fahad: Server side logic, NodeMCU logic
