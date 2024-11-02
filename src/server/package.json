@@ -1,6 +1,6 @@
 {
   "name": "thaapasakhi-server",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Backend to control logic for music player based on temperature",
   "main": "index.js",
   "scripts": {
