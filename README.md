@@ -80,10 +80,8 @@ npm install
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
+![Workflow](docs/thaapasakhi-workflow.png)
+There are 3 parts: Microcontroller, Server(ntfy) and your PC(Node.js web server)
 
 # Schematic & Circuit
 ![Circuit](Add your circuit diagram here)
@@ -93,22 +91,15 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+![Components](docs/thaapasakhi-components.png)
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Final](docs/thaapasakhi-components.png)
+GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - Mohammed Fahad: Server side logic, NodeMCU logic
