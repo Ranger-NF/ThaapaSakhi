@@ -19,14 +19,18 @@ ws.addEventListener("message", function (event) {
   const data = JSON.parse(event.data);
   console.log(data);
 
-  analyzeTemperature(parseInt(data.message));
+  if (data.event == "open") {
+    console.log("Established websocket connection with ntfy!");
+  } else {
+    analyzeTemperature(parseInt(data.message));
+  }
 });
 
 function analyzeTemperature(tempInCelcius) {
   const musicName = musicList[tempInCelcius];
 
   if (!musicName) {
-    console.log("No music for this temperature");
+    console.log("No music has been set for this temperature");
   } else {
     console.log(musicName);
     playMusic(musicName);
@@ -39,6 +43,7 @@ function playMusic(musicName) {
   }
 
   audioPlayer = new Audic(musicFolderPath + musicName + ".mp3");
-
   audioPlayer.play();
+
+  console.log("Started playing " + musicName);
 }
