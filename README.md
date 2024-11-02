@@ -1,13 +1,17 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# Thaapasakhi 🎶
+---
+
+# 🎶 Thaapasakhi
 
 ## Basic Details
+
 ### Team Name: MegaMinds
+
 ### Team Members
-- Team Lead: Mohammed Fahad - College: Engineering College Palakkad
-- Member 2: N Fadeela - College: Engineering College Palakkad
-- Member 3: Mohammed Muflih - College: Government Engineering College Palakkad
+- Team Lead: Mohammed Fahad - Government Engineering College Palakkad
+- Member 2: N Fadeela - Government Engineering College Palakkad
+- Member 3: Mohammed Muflih - Government Engineering College Palakkad
 
 ### Project Description
 A beautiful flawless project which plays songs according to the subjected temperature 😉
@@ -17,7 +21,7 @@ Nobody loves to sense the surrounding temperature by themselves. Do they?
 So, we made this complicated facade to help you with that 😌
 
 ### The Solution (that nobody asked for)
-We collect data from a temperature sensor and plays accurate melodies for you 🎵🎶
+We collect data from a temperature sensor and plays accurate melodies for you 🎶
 
 ## Technical Details
 ### Technologies/Components Used
@@ -29,8 +33,8 @@ For Software:
 
 For Hardware:
 - Components:
-  -NodeMCU 8266
-  - DHT11 temperature sensor,
+  - NodeMCU v1 (ESP8266)
+  - DHT11 temperature sensor
 
 ### Implementation
 1. Read data from DHT11 sensor
@@ -39,19 +43,31 @@ For Hardware:
 4. Checking the temperatures, and playing specified audio files
 
 # Installation
+
+```
+git clone https://github.com/Ranger-NF/Thaapasakhi/
+cd Thaapasakhi
+```
+
+- Server:
 ```
 cd src/server
 npm install
 ```
 
-# Run
-```
-cd src/server
-node index.js
-```
+- NodeMCU:
+  - Open `src/mircrocontroller/main/main.ino` file in Arduino IDE
+  - Connect NodeMCU board and upload the code
 
-### Project Documentation
-For Software:
+
+# Run
+- Server:
+  ```
+  cd src/server
+  node index.js
+  ```
+
+- NodeMCU: Just connect it to power
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -96,8 +112,8 @@ For Hardware:
 
 ## Team Contributions
 - Mohammed Fahad: Server side logic, NodeMCU logic
-- Fadeela: Proposed the idea, collected the music and documented project
-- [Name 3]: Circuit assembly, edited audio files and NodeMCU logic
+- N Fadeela: Proposed the idea, collected the music and documented project
+- Mohammed Muflih: Circuit assembly, edited audio files and NodeMCU logic
 
 ---
 Made with ❤️ at TinkerHub Useless Projects
