@@ -94,11 +94,12 @@ npm install
 *There are 3 parts: Microcontroller, Server(ntfy) and your PC(Node.js web server)*
 
 # Schematic & Circuit
+![Schematic](docs/thaapasakhi-schematics.jpg)
+
 ![Circuit](docs/thaapasakhi-circuit-diagram.png)
 
 *GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU*
 
-![Schematic](docs/thaapasakhi-schematics.jpg)
 
 # Build Photos
 ![Components](docs/thaapasakhi-components.png)
@@ -107,9 +108,11 @@ npm install
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
+https://github.com/user-attachments/assets/027e1072-a8ac-415e-a078-05ecac469b10
 
 *NB: It would be better if you turn up the volume*
+
 
 ## Team Contributions
 - Mohammed Fahad: Server side logic, NodeMCU logic
