@@ -14,10 +14,15 @@
     "NodeMCU",
     "WebSocket"
   ],
+  "type": "module",
   "author": "Fahad, Muflih & Fadeela",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/Ranger-NF/Thaapasakhi/issues"
   },
-  "homepage": "https://github.com/Ranger-NF/Thaapasakhi#readme"
+  "homepage": "https://github.com/Ranger-NF/Thaapasakhi#readme",
+  "dependencies": {
+    "audic": "^3.0.2",
+    "ws": "^8.18.0"
+  }
 }
