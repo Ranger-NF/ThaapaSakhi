@@ -93,7 +93,7 @@ There are 3 parts: Microcontroller, Server(ntfy) and your PC(Node.js web server)
 # Build Photos
 ![Components](docs/thaapasakhi-components.png)
 
-![Final](docs/thaapasakhi-final-build.png)
+![Final](docs/thaapasakhi-final-build.jpg)
 
 GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU
 
