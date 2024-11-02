@@ -5,7 +5,6 @@
 # 🎶 Thaapasakhi
 
 ## Basic Details
-
 ### Team Name: 🧠 MegaMinds
 
 ### Team Members
@@ -26,10 +25,18 @@ We collect data from a temperature sensor and play accurate melodies for you �
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- Languages used: Javascript & CPP
-- Framework ysed: Arduino & Node.JS
-- Libraries used: Audic, ws, dht11,ESP8266WiFi.h,WiFiClient.h
-- Tools used: Arduino IDE, Zed, Audacity
+- Languages used:
+  - Javascript
+  - CPP
+- Framework ysed:
+  - Arduino
+  - Node.JS
+- Libraries used:
+  - Server side: Audic, ws
+  - Hardware side: dht11, ESP8266WiFi, WiFiClient
+- Tools used:
+  - Code Editors: Arduino IDE & Zed
+  - Sound editing: Audacity
 
 For Hardware:
 - Components:
@@ -57,6 +64,18 @@ npm install
 
 - NodeMCU:
   - Open `src/mircrocontroller/main/main.ino` file in Arduino IDE
+  - Enter missing details:
+    1. Enter your Wifi SSID & Password in main.ino (line 5 & 6):
+    ```
+    const char* SSID = "<ENTER_WIFI_SSID>"; // File: src/microcontrollers/main/main.ino
+    const char* password = "<ENTER_WIFI_PASSWORD>";
+    ```
+
+    2. Create a topic over at [ntfy](https://ntfy.sh/app) and enter the topic name in main.ino (line 76):
+    ```
+      String url = "/<ENTER_TOPIC_NAME>"; // File: src/microcontrollers/main/main.ino
+    ```
+
   - Connect NodeMCU board and upload the code
 
 
@@ -71,10 +90,12 @@ npm install
 
 # Diagrams
 ![Workflow](docs/thaapasakhi-workflow.png)
+
 *There are 3 parts: Microcontroller, Server(ntfy) and your PC(Node.js web server)*
 
 # Schematic & Circuit
 ![Circuit](docs/thaapasakhi-circuit-diagram.png)
+
 *GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU*
 
 ![Schematic](docs/thaapasakhi-schematics.jpg)
@@ -83,13 +104,12 @@ npm install
 ![Components](docs/thaapasakhi-components.png)
 
 ![Final](docs/thaapasakhi-final-build.jpg)
-*GND(Ground) pin is connected to GND, VDD pin is connected to 3.3v and Signal pin is connected to D2 of NodeMCU*
-
 
 ### Project Demo
 # Video
 [Add your demo video link here]
-*Explain what the video demonstrates*
+
+*NB: It would be better if you turn up the volume*
 
 ## Team Contributions
 - Mohammed Fahad: Server side logic, NodeMCU logic

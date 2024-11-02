@@ -2,8 +2,8 @@
 #include <ESP8266WiFi.h>
 #include <WiFiClient.h>
 
-const char* SSID = "Useless";
-const char* password = "Useless@24";
+const char* SSID = "<ENTER_WIFI_SSID>";
+const char* password = "<ENTER_WIFI_PASSWORD>";
 
 const char* serverHost = "ntfy.sh";
 
@@ -21,7 +21,7 @@ void  setup()
   Serial.begin(9600);
 
   pinMode(builtinLed, OUTPUT);
-  
+
   WiFi.mode(WIFI_STA);
   WiFi.begin(SSID, password);
   Serial.println("Started!");
@@ -57,7 +57,7 @@ void  setup()
     Serial.print("Connection failed!");
   }
 
- 
+
 }
 
 void sendTempData(int temp) {
@@ -73,7 +73,7 @@ void sendTempData(int temp) {
     Serial.println("Connection to server failed!");
     return;
   }
-  String url = "/thaapasakhi-server";
+  String url = "/<ENTER_TOPIC_NAME>";
   String payload = String(temp);
 
   digitalWrite(builtinLed, LOW);
