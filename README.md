@@ -1,11 +1,12 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 ---
-
-# 🎶 Thaapasakhi
 <div align="center"></div>
 <img width="1280" alt="thaapasakhi-logo" src="docs/logo.jpg">
-<div align="center">താപസഖി</div>
+<div align="center">
+  <strong>താപസഖി</strong>
+  <p>[pronunciation: Thaa-ba-sa-khi]</p>
+</div>
 
 ## Basic Details
 ### Team Name: 🧠 MegaMinds
