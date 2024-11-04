@@ -3,6 +3,9 @@
 ---
 
 # 🎶 Thaapasakhi
+<div align="center"></div>
+<img width="1280" alt="thaapasakhi-logo" src="docs/logo.jpg">
+<div align="center">താപസഖി</div>
 
 ## Basic Details
 ### Team Name: 🧠 MegaMinds
