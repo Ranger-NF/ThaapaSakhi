@@ -4,7 +4,7 @@
 <div align="center"></div>
 <img width="1280" alt="thaapasakhi-logo" src="docs/logo.jpg">
 <div align="center">
-  <strong>🌡താപസഖി 🎶</strong>
+  <strong>🌡 താപസഖി 🎶</strong>
   <p>[pronunciation: Thaa-ba-sa-khi]</p>
 </div>
 
