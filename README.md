@@ -1,10 +1,13 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
 ---
+## Demo Video (Youtube)
 
 [![ThaapaSakhi Demo Video](https://img.youtube.com/vi/x4UjhobRrWo/0.jpg)](https://www.youtube.com/watch?v=x4UjhobRrWo)
 
-<div align="center"></div>
+###### NB: The temperature reading from DHT11 takes some time to change, and so the video has been edited to reduce the duration between each reading change
+---
+
 <img width="1280" alt="thaapasakhi-logo" src="docs/logo.jpg">
 <div align="center">
   <strong>🌡 താപസഖി 🎶</strong>
